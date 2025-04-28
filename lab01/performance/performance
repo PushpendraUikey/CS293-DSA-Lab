@@ -1,0 +1,149 @@
+# test-static vector
+g++-11 -std=c++20 -O0 -o performance-O0 performance.cpp
+./performance-O0
+1.98915e+09
+1.52984e+09
+1.58389e+09
+1.72355e+09
+1.96596e+09
+g++-11 -std=c++20 -O1 -o performance-O1 performance.cpp
+./performance-O1
+1.63143e+08
+1.227e+08
+1.30331e+08
+1.52863e+08
+2.46979e+08
+g++-11 -std=c++20 -O2 -o performance-O2 performance.cpp
+./performance-O2
+1.45841e+08
+1.83735e+08
+1.93064e+08
+1.93224e+08
+3.90368e+08
+g++-11 -std=c++20 -O3 -o performance-O3 performance.cpp
+./performance-O3
+1.48582e+08
+1.79059e+08
+1.70458e+08
+1.65965e+08
+2.59777e+08
+
+ # test-local-iterator vector 
+g++-11 -std=c++20 -O0 -o performance-O0 performance.cpp
+./performance-O0
+2.79888e+09
+1.55431e+08
+1.11136e+08
+1.12978e+08
+2.10868e+08
+g++-11 -std=c++20 -O1 -o performance-O1 performance.cpp
+./performance-O1
+5.54153e+08
+2.97243e+07
+2.43629e+07
+3.81478e+07
+1.41827e+08
+g++-11 -std=c++20 -O2 -o performance-O2 performance.cpp
+./performance-O2
+5.72354e+08
+3.66031e+07
+2.66311e+07
+2.52467e+07
+6.99119e+07
+g++-11 -std=c++20 -O3 -o performance-O3 performance.cpp
+./performance-O3
+5.48882e+08
+1.74032e+07
+1.08384e+07
+1.52221e+07
+5.77393e+07
+
+ # test-local-reserve vector 
+g++-11 -std=c++20 -O0 -o performance-O0 performance.cpp
+./performance-O0
+2.56624e+09
+3.37428e+08
+2.8617e+08
+2.94508e+08
+4.11754e+08
+g++-11 -std=c++20 -O1 -o performance-O1 performance.cpp
+./performance-O1
+5.66988e+08
+6.87375e+07
+6.55286e+07
+7.15405e+07
+1.782e+08
+g++-11 -std=c++20 -O2 -o performance-O2 performance.cpp
+./performance-O2
+5.03741e+08
+7.06966e+07
+6.93106e+07
+6.85793e+07
+1.01924e+08
+g++-11 -std=c++20 -O3 -o performance-O3 performance.cpp
+./performance-O3
+5.68914e+08
+3.19086e+07
+2.69923e+07
+2.84404e+07
+8.48961e+07
+
+ # test-local vector 
+g++-11 -std=c++20 -O0 -o performance-O0 performance.cpp
+./performance-O0
+7.94485e+09
+1.9482e+09
+1.49649e+09
+1.7592e+09
+1.68742e+09
+g++-11 -std=c++20 -O1 -o performance-O1 performance.cpp
+./performance-O1
+1.38321e+09
+2.1905e+08
+1.35782e+08
+2.96939e+08
+3.21076e+08
+g++-11 -std=c++20 -O2 -o performance-O2 performance.cpp
+./performance-O2
+1.23411e+09
+1.49419e+08
+1.24183e+08
+2.86249e+08
+2.77806e+08
+g++-11 -std=c++20 -O3 -o performance-O3 performance.cpp
+./performance-O3
+1.09137e+09
+1.33686e+08
+7.3188e+07
+2.0387e+08
+2.93779e+08
+
+ # test-array 
+g++-11 -std=c++20 -O0 -o performance-O0 performance.cpp
+./performance-O0
+7.77741e+09
+1.85639e+09
+1.46158e+09
+1.76325e+09
+1.6675e+09
+g++-11 -std=c++20 -O1 -o performance-O1 performance.cpp
+./performance-O1
+1.3012e+09
+2.15163e+08
+1.21978e+08
+2.77998e+08
+2.96151e+08
+g++-11 -std=c++20 -O2 -o performance-O2 performance.cpp
+./performance-O2
+1.18703e+09
+1.5855e+08
+1.01012e+08
+3.06288e+08
+2.60907e+08
+g++-11 -std=c++20 -O3 -o performance-O3 performance.cpp
+./performance-O3
+1.11955e+09
+1.37453e+08
+8.08195e+07
+2.20673e+08
+2.72425e+08
